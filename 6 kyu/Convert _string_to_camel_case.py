@@ -1,7 +1,7 @@
 def to_camel_case(text):
     result = ""
     capitalize = False
-    for i, char in enumerate(text):
+    for  char in text:
         if char in ('_', '-'):
             capitalize = True
         else:
