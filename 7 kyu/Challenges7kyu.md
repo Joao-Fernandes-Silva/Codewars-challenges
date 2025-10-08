@@ -19,7 +19,8 @@ Each entry contains the **challenge name**, its **difficulty level**, and a shor
 "middle" --> "dd"
 "A" --> "A"
 
-### A square of squares
+
+### 2. A square of squares
 **Description**:
 - Given an integral number, determine if it's a square number:
 - In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself.
@@ -32,3 +33,15 @@ Each entry contains the **challenge name**, its **difficulty level**, and a shor
  4  =>  true
 25  =>  true
 26  =>  false
+
+
+### 3. Exes and Ohs
+- **Description**: 
+- Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
+
+- **Examples**
+XO("ooxx") => true
+XO("xooxx") => false
+XO("ooxXm") => true
+XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
+XO("zzoo") => false
