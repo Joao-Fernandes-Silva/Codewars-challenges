@@ -22,7 +22,6 @@ Each entry contains the **challenge name**, its **difficulty level**, and a shor
 - **Description**: Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.
 - Modern Roman numerals are written by expressing each decimal digit of the number to be encoded separately, starting with the leftmost digit and skipping any 0s. So 1990 is rendered "MCMXC" (1000 = M, 900 = CM, 90 = XC) and 2008 is rendered "MMVIII" (2000 = MM, 8 = VIII). The Roman numeral for 1666, "MDCLXVI", uses each letter in descending order.
 
-
 - **Examples**
 "MM"      -> 2000
 "MDCLXVI" -> 1666
@@ -41,3 +40,13 @@ L          50
 C          100
 D          500
 M          1,000
+
+
+### 3. Spinning Words
+- **Description**: Write a function that takes in a string of one or more words, and returns the same string, but with all words that have five or more letters reversed (Just like the name of this Kata).
+- Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+- **Examples**
+"Hey fellow warriors"  --> "Hey wollef sroirraw" 
+"This is a test        --> "This is a test" 
+"This is another test" --> "This is rehtona test"
