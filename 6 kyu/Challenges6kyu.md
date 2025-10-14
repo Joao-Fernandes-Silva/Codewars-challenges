@@ -55,3 +55,16 @@ M          1,000
 ### 4. Spinning Words
 - **Description**: The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}.
 - What if the string is empty? Then the result should be empty object literal, {}.
+
+
+### 5. Who likes it?
+- **Description**:You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or others. We want to create the text that should be displayed next to such an item.
+- Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
+- Note: For 4 or more names, the number in "and 2 others" simply increases.
+
+- **Examples**
+[]                                -->  "no one likes this"
+["Peter"]                         -->  "Peter likes this"
+["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
+["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
+["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
