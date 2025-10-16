@@ -54,3 +54,8 @@ Your task is to convert strings to how they would be written by Jaden Smith. The
 - **Examples**
 Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
+
+
+### 5. Shortest Word
+- **Description**: Simple, given a string of words, return the length of the shortest word(s).
+- String will never be empty and you do not need to account for different data types.
