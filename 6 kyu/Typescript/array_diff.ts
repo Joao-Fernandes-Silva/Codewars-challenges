@@ -18,6 +18,16 @@ export function arrayDiff(a: number[], b: number[]): number[] {
     return arr;
 }
 
+export function arrayDiff2(a: number[], b: number[]): number[] {
+    let arr: number[] = [];
+    arr = a.filter((na) => !b.includes(na));
+    return arr;
+}
+
 console.log(arrayDiff([1, 2, 2, 3], []));
 console.log(arrayDiff([1, 2, 2, 3], [2]));
 console.log(arrayDiff([1, 2, 2, 3], [2, 3]));
+
+console.log(arrayDiff2([1, 2, 2, 3], []));
+console.log(arrayDiff2([1, 2, 2, 3], [2]));
+console.log(arrayDiff2([1, 2, 2, 3], [2, 3]));
