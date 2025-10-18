@@ -89,3 +89,11 @@ createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 
+
+### 8. Array.diff
+- **Description**: Implement a function that computes the difference between two lists. The function should remove all occurrences of elements from the first list (a) that are present in the second list (b).
+- The order of elements in the first list should be preserved in the result.
+
+- **Examples**
+If a = [1, 2] and b = [1], the result should be [2].
+If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
