@@ -97,3 +97,10 @@ createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 - **Examples**
 If a = [1, 2] and b = [1], the result should be [2].
 If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
+
+
+### 9. Bit Counting
+- **Description**: Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+- **Examples**
+ The binary representation of 1234 is 10011010010, so the function should return 5 in this case
