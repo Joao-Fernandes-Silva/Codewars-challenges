@@ -104,3 +104,14 @@ If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
 
 - **Examples**
  The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+
+
+### 10. Isograms
+- **Description**: An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+- **Examples**
+"Dermatoglyphics" --> true
+"aba" --> false
+"moOse" --> false (ignore letter case)
+
+
