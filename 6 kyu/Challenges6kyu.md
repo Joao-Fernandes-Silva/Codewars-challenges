@@ -115,3 +115,12 @@ If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
 "moOse" --> false (ignore letter case)
 
 
+### 11. Multiplication Table
+- **Description**: The task, is to create N×N multiplication table, of size provided in parameter.
+
+- **Examples**
+For example, when given size is 3:
+
+1 2 3
+2 4 6
+3 6 9
