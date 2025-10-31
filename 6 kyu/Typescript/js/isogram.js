@@ -8,4 +8,4 @@ function isIsogram(str) {
         return true;
     return false;
 }
-//# sourceMappingURL=isogram.js.map
+//# sourceMappingURL=Isogram.js.map

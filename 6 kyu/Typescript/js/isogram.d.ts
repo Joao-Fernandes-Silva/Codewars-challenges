@@ -1,2 +1,2 @@
 export declare function isIsogram(str: string): boolean;
-//# sourceMappingURL=isogram.d.ts.map
+//# sourceMappingURL=Isogram.d.ts.map
