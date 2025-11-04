@@ -157,3 +157,16 @@ Input = "The sunset sets at twelve o' clock."
 Output = "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"
 
 
+### 15. Friend or Foe
+- **Description**: Make a program that filters a list of strings and returns a list with only your friends name in it.
+If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
+
+- **Examples**:
+Input = ["Ryan", "Kieran", "Jason", "Yous"]
+Output = ["Ryan", "Yous"]
+
+Input = ["Peter", "Stephen", "Joe"]
+Output = []
+
+Input strings will only contain letters.
+Note: keep the original order of the names in the output.
