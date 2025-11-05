@@ -13,9 +13,3 @@ export function duplicateCount(text: string): number{
     }
     return count;
 }
-
-
-//Continue tomorrow
-// export function duplicateCount2(text: string): number{
-//     const 
-// }
