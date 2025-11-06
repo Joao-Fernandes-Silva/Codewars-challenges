@@ -16,8 +16,4 @@ function duplicateCount(text) {
     }
     return count;
 }
-//Continue tomorrow
-// export function duplicateCount2(text: string): number{
-//     const 
-// }
 //# sourceMappingURL=Count_Duplicates.js.map
