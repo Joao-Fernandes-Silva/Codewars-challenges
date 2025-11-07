@@ -180,3 +180,9 @@ Note: keep the original order of the names in the output.
 "recede"   =>  "()()()"
 "Success"  =>  ")())())"
 "(( @"     =>  "))((" 
+
+
+### 17. Duplicate Encoder
+- **Description**: 
+
+- **Examples**:
