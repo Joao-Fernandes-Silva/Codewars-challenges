@@ -60,3 +60,14 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 - **Description**: Simple, given a string of words, return the length of the shortest word(s).
 - String will never be empty and you do not need to account for different data types.
 
+
+### 6. Shortest Word
+- **Description**: Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string (alphabetical ascending), the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
+
+- **Examples**: 
+a = "xyaabbbccccdefww"
+b = "xxxxyyyyabklmopq"
+longest(a, b) -> "abcdefklmopqwxy"
+
+a = "abcdefghijklmnopqrstuvwxyz"
+longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
