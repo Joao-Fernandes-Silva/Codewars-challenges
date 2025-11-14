@@ -34,3 +34,14 @@ Notes: You may consider that there will not be any empty arrays/vectors.
 - **Examples**:
 "GCAT"  =>  "CGUA"
 The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
+
+
+### 4. Clock
+- **Description**: Clock shows h hours, m minutes and s seconds after midnight. Your task is to write a function which returns the time since midnight in milliseconds.
+
+- **Examples**:
+h = 0
+m = 1
+s = 1
+
+result = 61000
