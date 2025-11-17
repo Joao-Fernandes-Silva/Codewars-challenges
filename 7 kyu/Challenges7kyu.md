@@ -95,3 +95,13 @@ Note:
 Examples:
 nb_year(1500, 5, 100, 5000) -> 15
 nb_year(1500000, 2.5, 10000, 2000000) -> 10
+
+
+### 8. Pop Growth
+- **Description**: ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits. If the function is passed a valid PIN string, return true, else return false.
+
+- **Examples**: 
+"1234"   -->  true
+"12345"  -->  false
+"a234"   -->  false
+
