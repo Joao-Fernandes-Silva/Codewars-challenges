@@ -6,5 +6,5 @@ export function printerError(s: string): string {
     for (const i of arr) {
         if (!pattern.test(i)) counter++;
     }
-    return `${counter}/${s.length}`
+    return `${counter}/${s.length}`;
 }
