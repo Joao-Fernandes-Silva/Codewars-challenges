@@ -226,3 +226,18 @@ If the character in the string is whitespace then pass over it as if it was an e
 39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit, there are 3 multiplications)
 999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2, there are 4 multiplications)
 4 --> 0 (because 4 is already a one-digit number, there is no multiplication)
+
+
+### 20. Narcisistic Number
+- **Description**: A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base. In this Kata, we will restrict ourselves to decimal (base 10).
+
+- **Examples**:
+For example, take 153 (3 digits), which is narcissistic:
+1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
+
+153 = 153 therefore it's a narcisist number
+
+and 1652 (4 digits), which isn't:
+1^4 + 6^4 + 5^4 + 2^4 = 1 + 1296 + 625 + 16 = 1938
+
+1652 is different than 1938 therefore this one isn't
