@@ -7,4 +7,4 @@ function greet(name) {
 }
 const x = greet(test);
 console.log(x);
-//# sourceMappingURL=Greet.js.map
+//# sourceMappingURL=greet.js.map

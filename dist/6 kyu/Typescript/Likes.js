@@ -15,4 +15,4 @@ const likes = (a) => {
 exports.likes = likes;
 console.log((0, exports.likes)(['Alex', 'Jacob', 'Mark', 'Max']));
 console.log((0, exports.likes)(['Alex', 'Jacob', 'Mark']));
-//# sourceMappingURL=Likes.js.map
+//# sourceMappingURL=likes.js.map

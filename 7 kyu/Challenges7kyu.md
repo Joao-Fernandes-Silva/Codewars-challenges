@@ -132,3 +132,15 @@ The binary number returned should be a string.
 - **Examples**: 
 1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
+
+
+### 11. Count divisors 
+- **Description**: Count the number of divisors of a positive integer n. Random tests go up to n = 500000, but fixed tests go higher.
+Note you should only return a number, the count of divisors. The numbers between parentheses are shown only for you to see which numbers are counted in each case.
+
+- **Examples**: 
+4 --> 3 // we have 3 divisors - 1, 2 and 4
+5 --> 2 // we have 2 divisors - 1 and 5
+12 --> 6 // we have 6 divisors - 1, 2, 3, 4, 6 and 12
+30 --> 8 // we have 8 divisors - 1, 2, 3, 5, 6, 10, 15 and 30
+

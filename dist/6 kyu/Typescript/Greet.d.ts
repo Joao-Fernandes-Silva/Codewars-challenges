@@ -1,2 +1,2 @@
 export {};
-//# sourceMappingURL=Greet.d.ts.map
+//# sourceMappingURL=greet.d.ts.map
